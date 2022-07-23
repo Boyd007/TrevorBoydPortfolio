@@ -1,0 +1,8 @@
+.font-face-gm {
+    font-family: "Splash-Regular";
+    src: local("Splash Regular"), local("Splash-Regular"), url(
+        "https://fonts.gstatic.com/s/splash/v8/6vQ0o6z8G8oCdFoA2yKpZQ.woff2")
+      format("woff2");
+    font-weight: bold;
+  }
+  

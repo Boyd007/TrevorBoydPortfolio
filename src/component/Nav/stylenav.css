@@ -5,8 +5,6 @@ header {
     padding: 5px 24px;
     background-color: #280137;
     color: white;
-    font: normal normal normal 24px/1.5 "Open Sans", sans-serif;
-    font-weight: 600;
     letter-spacing: 0.5px;
     text-transform: uppercase;
     height: 65px;
@@ -27,5 +25,6 @@ header {
     font-size: 20px;
     font-family: copperplate;
     
+  
   }
   
