@@ -6,10 +6,10 @@ function Nav() {
       <nav className="nav">
         <ul className="nav__list">
           <li className="nav__item">
-            <a href="/">Home</a>
+            <a href="/">About</a>
           </li>
           <li className="nav__item">
-            <a href="/about">About</a>
+            <a href="/about">Projects</a>
           </li>
           <li className="nav__item">
             <a href="/contact">Contact</a>
