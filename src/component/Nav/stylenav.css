@@ -9,9 +9,9 @@ header {
   padding: 10px 20px;
   background-color: #280137;
   color: white;
-  letter-spacing: 0.5px;
-  height: 45px;
-  box-shadow: 5px 5px 5px 5px rgba(194, 190, 190, 0.75);
+  letter-spacing: 0.8px;
+  height: 55px;
+  box-shadow: 5px 5px 5px 5px #c0bfc1;
 }
 
 header nav ul {
@@ -28,4 +28,8 @@ header nav ul li a {
   color: white;
   font-size: 20px;
   font-family: copperplate;
+}
+
+body {
+  background-color: rgba(218, 165, 32, 80%)
 }
