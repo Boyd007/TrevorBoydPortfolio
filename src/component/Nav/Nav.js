@@ -4,6 +4,7 @@ function Nav() {
     <header>
       
       <h1>Trevor Boyd</h1>
+      
       <nav className="nav">
         <ul className="nav__list">
           <li className="nav__item">
@@ -16,6 +17,7 @@ function Nav() {
             <a href="/contact">Contact</a>
           </li>
         </ul>
+
       </nav>
     </header>
   );

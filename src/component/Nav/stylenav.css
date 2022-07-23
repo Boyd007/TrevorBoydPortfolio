@@ -1,30 +1,31 @@
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 5px 24px;
-    background-color: #280137;
-    color: white;
-    letter-spacing: 0.5px;
-    text-transform: uppercase;
-    height: 65px;
-  }
-  
-  header nav ul {
-    display: flex;
-    list-style-type: none;
-  }
-  
-  header nav ul li {
-    padding: 0px 12px;
-  }
-  
-  header nav ul li a {
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
-    font-family: copperplate;
-    
-  
-  }
-  
+  display: flex;
+  font-family: relation-two, sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  font-style: normal;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #280137;
+  color: white;
+  letter-spacing: 0.5px;
+  height: 45px;
+  box-shadow: 5px 5px 5px 5px rgba(194, 190, 190, 0.75);
+}
+
+header nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+header nav ul li {
+  padding: 0px 12px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-family: copperplate;
+}
