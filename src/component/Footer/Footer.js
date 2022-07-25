@@ -11,7 +11,11 @@ function Footer() {
   <i class="fab fa-linkedin"></i>
   </a>
   <a href="https://www.instagram.com/trevorboyd/" target="_blank">
-  <i class="fab fa-instagram"></i> </a>
+  <i class="fab fa-instagram"></i> 
+  </a>
+  <a href="https://twitter.com/TrevorBoyd" target="_blank">
+  <i class="fab fa-twitter"></i> 
+  </a>
   </footer>;
 
 }
