@@ -16,6 +16,12 @@ function Nav() {
           <li className="nav__item">
             <a href="/contact">Contact</a>
           </li>
+          <li className="nav__item">
+            <a href="/about">Resume</a>
+          </li>
+          <li className="nav__item">
+            <a href="/about">Resources</a>
+          </li>
         </ul>
 
       </nav>
