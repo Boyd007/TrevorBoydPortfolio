@@ -10,6 +10,8 @@ function Footer() {
   <a href="https://www.linkedin.com/in/trevor-boyd-65730422/" target="_blank">
   <i class="fab fa-linkedin"></i>
   </a>
+  <a href="https://www.instagram.com/trevorboyd/" target="_blank">
+  <i class="fab fa-instagram"></i> </a>
   </footer>;
 
 }
