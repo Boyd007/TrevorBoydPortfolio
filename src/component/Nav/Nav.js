@@ -1,29 +1,30 @@
-import "./stylenav.scss"
-function Nav({setpagename}) {
+import "./stylenav.scss";
+import { Link } from "react-router-dom";
+import Resume from "../../assets/TrevorBoydResume2021Fall.pdf";
+function Nav({ setpagename }) {
   return (
     <header>
-      
       <h1>Trevor Boyd</h1>
-      
+
       <nav className="nav">
         <ul className="nav__list">
-          <li className="nav__item" onClick={()=>setpagename("about")}>
-            <a href="/">About</a>
+          <li className="nav__item">
+            <Link to="/">About</Link>
           </li>
-          <li className="nav__item" onClick={()=>setpagename("projects")}>
-            <a href="/about">Projects</a>
+          <li className="nav__item">
+            <Link to="/projects">Projects</Link>
           </li>
-          <li className="nav__item"onClick={()=>setpagename("contact")}>
-            <a href="/contact">Contact</a>
+          <li className="nav__item">
+            <Link to="/contact">Contact</Link>
           </li>
-          <li className="nav__item"onClick={()=>setpagename("resume")}>
-            <a href="/about">Resume</a>
+          <li className="nav__item">
+            <a href={Resume} target="_blank">Resume</a>
+            {/* <Link to={Resume}>Resume</Link> */}
           </li>
-          <li className="nav__item"onClick={()=>setpagename("resources")}>
-            <a href="/about">Resources</a>
+          <li className="nav__item">
+            <Link to="/resources">Resources</Link>
           </li>
         </ul>
-
       </nav>
     </header>
   );

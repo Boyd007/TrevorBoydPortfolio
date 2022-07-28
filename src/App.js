@@ -7,6 +7,11 @@ import Footer from "./component/Footer/Footer";
 import Nav from "./component/Nav/Nav";
 import Footerwaves from "./component/FooterWaves/Footerwaves";
 import Portfoliocarousel from "./component/Portfoliocarousel/Portfoliocarousel";
+import {Routes, Route} from "react-router-dom";
+
+
+
+
 function App() {
   const [pagename, setpagename] = useState("about");
   // function renderpage () {
@@ -23,15 +28,22 @@ function App() {
   //       return <h1>Resources</h1>
   //   }
   // }
-  return (
-    <>
-      <Nav setpagename={setpagename}/>
+  return (<>
+    <Nav />
+
+    <Routes>
       {/* {renderpage()} */}
-      <Page pagename={pagename}/>
-      <Footerwaves />
-      <Footer />
+      <Route path="/" element={<About />} />
+      <Route path="/projects" element={<Portfoliocarousel />} />
+      <Route path="/contact" element={<Contact />} />
+      {/* <Route path="/resume" element={<Resume />} /> */}
+      {/* <Route path="/resources" element={<Resources />} /> */}
+
       
-    </>
+      
+    </Routes>
+  <Footerwaves />
+  <Footer /></>
   );
 }
 

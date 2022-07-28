@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./contactform.scss";
 
 const FORM_ENDPOINT = ""; // TODO - fill on the later step
 
@@ -21,6 +22,7 @@ const ContactForm = () => {
 
   return (
     <form
+      className="contactform"
       action={FORM_ENDPOINT}
       onSubmit={handleSubmit}
       method="POST"
