@@ -1,4 +1,4 @@
-import "./footerstyle.css";
+import "./footerstyle.scss";
 function Footer() {
   return <footer className="footer">
   <a href="https://github.com/Boyd007" target="_blank">

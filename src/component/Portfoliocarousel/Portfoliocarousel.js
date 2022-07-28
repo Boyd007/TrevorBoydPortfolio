@@ -1,7 +1,7 @@
 import React, {useState} from 'https://cdn.skypack.dev/react';
 import ReactDOM from 'https://cdn.skypack.dev/react-dom';
 import {TiChevronLeftOutline, TiChevronRightOutline} from 'https://cdn.skypack.dev/react-icons/ti';
-import './portfoliocarousel.css';
+import './portfoliocarousel.scss';
 
 const CARDS = 10;
 const MAX_VISIBILITY = 3;

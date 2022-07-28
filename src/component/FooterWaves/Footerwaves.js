@@ -1,6 +1,6 @@
 import React from "react";
 import Wave from "react-wavify";
-import "./footerwaves.css";
+import "./footerwaves.scss";
 
 function Footerwaves() {
   return (

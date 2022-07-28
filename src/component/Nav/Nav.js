@@ -1,4 +1,4 @@
-import "./stylenav.css"
+import "./stylenav.scss"
 function Nav({setpagename}) {
   return (
     <header>
