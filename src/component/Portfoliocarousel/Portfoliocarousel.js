@@ -17,18 +17,4 @@ function Portfoliocarousel (){
   );
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 export default Portfoliocarousel;
