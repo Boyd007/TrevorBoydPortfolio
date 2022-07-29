@@ -3,7 +3,6 @@
 # User Needs
 
 
-
 This application allows the user to browse a web developers portfolio and contact them. 
 
 # Usage
@@ -14,9 +13,7 @@ The user may browse information on the developer,  as well as browse some projec
 # Sample 
 
 
-
 https://user-images.githubusercontent.com/105176171/181417196-dbd1d971-eccd-4a10-bf61-8483e0f35a00.mp4
-
 
 
 # Technologies
@@ -24,3 +21,7 @@ https://user-images.githubusercontent.com/105176171/181417196-dbd1d971-eccd-4a10
 * React
 * JS
 * Npm
+
+# Deployment
+
+https://boyd007.github.io/trevorboydreactportfolio/
