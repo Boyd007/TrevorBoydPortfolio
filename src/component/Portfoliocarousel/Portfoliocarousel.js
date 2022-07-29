@@ -4,7 +4,6 @@ function Portfoliocarousel (){
   return ( 
     <div className="portfolio-carousel">
       <p>My Portfolio</p>
-
       <a href="https://github.com/Boyd007/C19JATE">Just Another Text Editor J.A.T.E</a>
       <a href="https://github.com/Boyd007/C6YourWeatherDash">Your Weather Dashboard</a>
       <a href="https://github.com/Boyd007/C11NoteTaker">Note Taking Application</a>
