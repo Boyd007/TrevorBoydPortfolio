@@ -7,11 +7,10 @@ function About () {
             <div className="about-text">
             <h1>About</h1>
             <p>
-                I am a full stack developer with a passion for creating beautiful
-                and user-friendly websites. I have a background in business and
-                a passion for learning new things. I am currently working on a
-                full-time job as a web developer. I am currently looking for a
-                position in the field of web development.
+                Trevor is a full stack developer with a creative eye and passion for the craft.
+                Trevor has a background in broadcasting and also provides photography and drone 
+                services through BoydMedia.ca. I am currently open to new opportunities as as web
+                developer.
             </p>
             </div>
             <div className="about-image">
