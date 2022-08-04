@@ -8,7 +8,7 @@ import Nav from "./component/Nav/Nav";
 import Footerwaves from "./component/FooterWaves/Footerwaves";
 import Portfoliocarousel from "./component/Portfoliocarousel/Portfoliocarousel";
 import {Routes, Route} from "react-router-dom";
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 
