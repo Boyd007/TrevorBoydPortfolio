@@ -12,10 +12,10 @@ function Portfoliocarousel (){
             <h3>Just Another Text Editor J.A.T.E</h3>
           </Carousel.Caption>
         </Carousel.Item>
-        
-        
+
         <Carousel.Item>
           <a href="https://gitcommitheroku.herokuapp.com/">Git Commit Heroku</a>
+        </Carousel.Item>
         <Carousel.Item>
           <a href="https://github.com/Boyd007/C6YourWeatherDash">Your Weather Dashboard</a>
         </Carousel.Item>

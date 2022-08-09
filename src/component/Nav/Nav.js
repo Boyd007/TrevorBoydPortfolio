@@ -1,6 +1,6 @@
 import "./stylenav.scss";
 import { Link } from "react-router-dom";
-import Resume from "../../assets/TrevorBoydResume2021Fall.pdf";
+import Resume from "../../assets/TrevorBoydResume2022.pdf";
 function Nav({ setpagename }) {
   return (
     <header>
