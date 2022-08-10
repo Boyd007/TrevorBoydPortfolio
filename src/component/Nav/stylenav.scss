@@ -5,22 +5,28 @@ header {
   font-size: 20px;
   font-style: normal;
   justify-content: space-between;
+  
   align-items: center;
   padding: 10px 20px;
   background-color: #280137;
-  color: white;
+  color: #DAA520;
   letter-spacing: 0.8px;
-  height: 55px;
+  height: 65px;
   box-shadow: 5px 5px 5px 5px #c0bfc1;
+  width: 100%;
 }
+
 
 header nav ul {
   display: flex;
   list-style-type: none;
+  position: relative;
 }
 
 header nav ul li {
   padding: 0px 12px;
+  border-right: 1px solid #c0bfc1;
+
 }
 
 header nav ul li a {
@@ -31,12 +37,24 @@ header nav ul li a {
   font-family: copperplate;
 }
 header nav ul li a:hover {
-  color: #f9c842;
+  color: #daa520;
   
   font-size: 25px;
 }
 
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+  text-decoration: none;
+}
+h1 {
+  top: 5px;
+  position: relative;
+}
 
 body {
-  background-color: rgba(218, 165, 32, 80%)
+  background-color: rgba(218, 165, 32, 30%)
 }

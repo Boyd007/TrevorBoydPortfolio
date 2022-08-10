@@ -2,13 +2,13 @@ import Contact from "./component/Contact Form/Contactform";
 import About from "./component/About/About"
 import Page from "./component/Page/Page";
 import { useState } from "react";
-import logo from "./logo.svg";
+import Logo from "./logo.svg";
 import Footer from "./component/Footer/Footer";
 import Nav from "./component/Nav/Nav";
 import Footerwaves from "./component/FooterWaves/Footerwaves";
 import Portfoliocarousel from "./component/Portfoliocarousel/Portfoliocarousel";
 import {Routes, Route} from "react-router-dom";
-import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 

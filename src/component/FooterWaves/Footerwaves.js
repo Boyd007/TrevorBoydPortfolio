@@ -12,7 +12,7 @@ function Footerwaves() {
             <stop offset="0.5" stopColor="white" />
           </linearGradient>
           <mask id="mask">
-            <rect x="0" y="0" width="2000" height="200" fill="url(#gradient)" />
+            <rect x="0" y="0" width="100%" height="75%" fill="url(#gradient)" />
           </mask>
         </defs>
       </Wave>
