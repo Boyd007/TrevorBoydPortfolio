@@ -5,17 +5,15 @@ header {
   font-size: 20px;
   font-style: normal;
   justify-content: space-between;
-  
   align-items: center;
   padding: 10px 20px;
   background-color: #280137;
-  color: #DAA520;
+  color: #daa520;
   letter-spacing: 0.8px;
   height: 65px;
-  box-shadow: 5px 5px 5px 5px #c0bfc1;
+  box-shadow: 5px 5px 5px 5px #f7eede;
   width: 100%;
 }
-
 
 header nav ul {
   display: flex;
@@ -24,21 +22,21 @@ header nav ul {
 }
 
 header nav ul li {
-  padding: 0px 12px;
-  border-right: 1px solid #c0bfc1;
-
+  padding: 0px 9px;
+  border-right: 2px solid #c0bfc1;
+  cursor: pointer;
+  
 }
 
 header nav ul li a {
   text-decoration: none;
   color: white;
   font-size: 20px;
-  transition:all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
   font-family: copperplate;
 }
 header nav ul li a:hover {
   color: #daa520;
-  
   font-size: 25px;
 }
 
@@ -56,5 +54,5 @@ h1 {
 }
 
 body {
-  background-color: rgba(218, 165, 32, 30%)
+  background-color: rgba(218, 165, 32, 30%);
 }
