@@ -21,9 +21,9 @@ function Nav({ setpagename }) {
             <a href={Resume} target="_blank">Resume</a>
             {/* <Link to={Resume}>Resume</Link> */}
           </li>
-          <li className="nav__item">
+          {/* <li className="nav__item">
             <Link to="/resources">Resources</Link>
-          </li>
+          </li> */}
         </ul>
       </nav>
     </header>

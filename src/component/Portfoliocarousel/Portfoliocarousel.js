@@ -5,7 +5,7 @@ function Portfoliocarousel() {
   return (
     <div className="portfolio-carousel">
       <p>My Portfolio</p>
-      <Carousel style={{ background: "purple" }}>
+      <Carousel style={{ background: "" }}>
         <Carousel.Item>
           <a href="https://github.com/Boyd007/C19JATE">
             Just Another Text Editor J.A.T.E

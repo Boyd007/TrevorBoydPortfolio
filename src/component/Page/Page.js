@@ -11,8 +11,8 @@ function Page({pagename}) {
           return <h1>Contact</h1>;
           case "resume":
             return <h1>Resume</h1>
-          case "resources":
-            return <h1>Resources</h1>
+          // case "resources":
+          //   return <h1>Resources</h1>
         }
       }
     return(<>

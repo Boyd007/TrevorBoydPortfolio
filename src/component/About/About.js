@@ -13,9 +13,7 @@ function About () {
                 developer.
             </p>
             </div>
-            <div className="about-image">
-            {/* <img src={require("./images/about.jpg")} alt="about" /> */}
-            </div>
+        
         </div>
         </div>
     );
