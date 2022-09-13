@@ -1,92 +1,57 @@
+// import { Portal } from '@headlessui/react';
+// import React, {useState} from 'https://cdn.skypack.dev/react';
+// import ReactDOM from 'https://cdn.skypack.dev/react-dom';
+// import {TiChevronLeftOutline, TiChevronRightOutline} from 'https://cdn.skypack.dev/react-icons/ti';
 // import "./portfoliocarousel.scss";
-// import Carousel from "react-bootstrap/Carousel";
 
-// function Portfoliocarousel() {
+// const CARDS = 6;
+// const MAX_VISIBILITY = 3;
+
+// const Card = ({title, content}) => (
+//   <div className='card'>
+//     <h2>{title}</h2>
+//     <p>{content}</p>
+//   </div>
+// );
+
+// const Carousel = ({children}) => {
+//   const [active, setActive] = useState(2);
+//   const count = React.Children.count(children);
+  
 //   return (
-//     <div className="portfolio-carousel">
-//       <p>My Portfolio</p>
-//       <Carousel style={{ background: "" }}>
-//         <Carousel.Item>
-//           <a href="https://github.com/Boyd007/C19JATE">
-//             Just Another Text Editor J.A.T.E
-//           </a>
-//           <Carousel.Caption></Carousel.Caption>
-//         </Carousel.Item>
-
-//         <Carousel.Item>
-//           <a href="https://gitcommitheroku.herokuapp.com/">Git Commit Heroku</a>
-//         </Carousel.Item>
-//         <Carousel.Item>
-//           <a href="https://github.com/Boyd007/C6YourWeatherDash">
-//             Your Weather Dashboard
-//           </a>
-//         </Carousel.Item>
-//         <a href="https://github.com/Boyd007/C11NoteTaker">
-//           Note Taking Application
-//         </a>
-//         <Carousel.Item></Carousel.Item>
-//         <a href="https://github.com/Boyd007/C9ProReadMe">README Generator</a>
-//         <Carousel.Item>
-//           <a href="https://github.com/Boyd007/C5Scheduler">
-//             Your Workday Scheduler
-//           </a>
-//         </Carousel.Item>
-//         <Carousel.Item>
-//           <a href="https://github.com/Boyd007/C3PasswordGenTrevorBoyd">
-//             Password Generator
-//           </a>
-//         </Carousel.Item>
-//       </Carousel>
+//     <div className='carousel'>
+//       {active > 0 && <button className='nav left' onClick={() => setActive(i => i - 1)}><TiChevronLeftOutline/></button>}
+//       {React.Children.map(children, (child, i) => (
+//         <div className='card-container' style={{
+//             '--active': i === active ? 1 : 0,
+//             '--offset': (active - i) / 3,
+//             '--direction': Math.sign(active - i),
+//             '--abs-offset': Math.abs(active - i) / 3,
+//             'pointer-events': active === i ? 'auto' : 'none',
+//             'opacity': Math.abs(active - i) >= MAX_VISIBILITY ? '0' : '1',
+//             'display': Math.abs(active - i) > MAX_VISIBILITY ? 'none' : 'block',
+//           }}>
+//           {child}
+//         </div>
+//       ))}
+//       {active < count - 1 && <button className='nav right' onClick={() => setActive(i => i + 1)}><TiChevronRightOutline/></button>}
 //     </div>
 //   );
-// }
+// };
 
-// export default Portfoliocarousel;
+// const App = () => (
+//   <div className='app'>
+//     <Carousel>
+//       {[...new Array(CARDS)].map((_, i) => (
+//         <Card title={'Card ' + (i + 1)} content='placeholder'/>
+//       ))}
+//     </Carousel>
+//   </div>
+// );
 
-import Carousel from 'react-bootstrap/Carousel';
-import "./portfoliocarousel.scss";
+// ReactDOM.render(
+//   <App/>,
+//   document.body
+// );
 
-function UncontrolledExample() {
-  return (
-    <Carousel>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          alt=""
-        />
-        <Carousel.Caption>
-          <h3>Work Day Scheduler</h3>
-          <p>This application allows you to schedule your activities for the day.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src="holder.js/800x400?text=Second slide&bg=282c34"
-          alt=""
-        />
-
-        <Carousel.Caption>
-          <h3>Git Chat</h3>
-          <p>This is an application designed to connect developers to one another</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src="holder.js/800x400?text=Third slide&bg=20232a"
-          alt="Third slide"
-        />
-
-        <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
-        </Carousel.Caption>
-      </Carousel.Item>
-    </Carousel>
-  );
-}
-
-export default UncontrolledExample;
+// export default Carousel;
