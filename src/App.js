@@ -1,8 +1,8 @@
 import Contact from "./component/Contact Form/Contactform";
 import About from "./component/About/About"
-import Page from "./component/Page/Page";
-import { useState } from "react";
-import Logo from "./logo.svg";
+// import Page from "./component/Page/Page";
+// import { useState } from "react";
+// import Logo from "./logo.svg";
 import Footer from "./component/Footer/Footer";
 import Nav from "./component/Nav/Nav";
 import Footerwaves from "./component/FooterWaves/Footerwaves";
@@ -13,7 +13,7 @@ import {Routes, Route} from "react-router-dom";
 
 
 function App() {
-  const [pagename, setpagename] = useState("about");
+  // const [pagename, setpagename] = useState("about");
   // function renderpage () {
   //   switch (pagename) {
   //     case "about":
