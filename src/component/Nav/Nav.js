@@ -18,7 +18,9 @@ function Nav({ setpagename }) {
             <Link to="/contact">Contact</Link>
           </li>
           <li className="nav__item">
-            <a href={Resume} target="_blank">Resume</a>
+            <a href={Resume} target="_blank" rel="noreferrer">
+              Resume
+            </a>
             {/* <Link to={Resume}>Resume</Link> */}
           </li>
           {/* <li className="nav__item">
