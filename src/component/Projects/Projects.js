@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./projects.scss";
+// import "../FooterWaves/Footerwaves";
 
 class Portfolio extends Component {
   render() {
@@ -7,7 +8,7 @@ class Portfolio extends Component {
       <section id="projects">
         <div className="projects">
           <div className="twelve columns collapsed">
-            <h1>A Few Projects I Have Been Working On</h1>
+            <h4>A Few Projects I Have Been Working On</h4>
             <div
               id="portfolio-wrapper"
               className="bgrid-quarters s-bgrid-thirds cf"
@@ -20,26 +21,30 @@ class Portfolio extends Component {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <img src="images/thumbs/06.jpg" alt="final-capstone" />
+                    {/* <img src="assets/weatherthumb.png" alt="weather" /> */}
                   </a>
                   <div className="art-description">
                     <div className="text-wrapper">
                       <h3>Your Personal Weather App</h3>
-                      <p>This application was developed to allow the user to view various weather parameters and recall recent cities searched</p>
+                      <p>
+                        This application was developed to allow the user to view
+                        various weather parameters and recall recent cities
+                        searched
+                      </p>
                     </div>
                     <ul className="actions">
                       <div className="actions-wrapper">
                         <li>
                           <a
-                            href="https://boyd007.github.io/Work-Day-Scheduler/"
+                            href="https://boyd007.github.io/Personal-Weather-Dashboard"
                             className="button project-button"
                             target="_blank"
                             rel="noopener noreferrer"
                           >
-                            View Demo
+                            View Weather Application
                           </a>
                         </li>
-                        <li>
+                        {/* <li>
                           <a
                             href="https://boyd007.github.io/Strong-Password-Generator/"
                             className="button project-button brands"
@@ -48,7 +53,7 @@ class Portfolio extends Component {
                           >
                             <i className="fa fa-github icon"></i>View Source
                           </a>
-                        </li>
+                        </li> */}
                       </div>
                       <div className="languages">
                         <i className="devicon-nodejs-plain colored technology"></i>
@@ -66,23 +71,27 @@ class Portfolio extends Component {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <img src="images/thumbs/08.jpg" alt="pic-some" />
+                    {/* <img src="images/thumbs/08.jpg" alt="pic-some" /> */}
                   </a>
                   <div className="art-description">
                     <div className="text-wrapper">
-                      <h3>College-wiki</h3>
-                      <p>An all</p>
+                      <h3>Strong Password Generator</h3>
+                      <p>
+                        An application designed to allow a user to generate a
+                        very strong password.
+                      </p>
                     </div>
                     <ul className="actions">
                       <div className="actions-wrapper">
                         <li>
                           <a
-                            href="https://github.com/aparnay2002/College-wiki"
+                            href="https://boyd007.github.io/Strong-Password-Generator/"
                             className="button project-button brands"
                             target="_blank"
                             rel="noopener noreferrer"
                           >
-                            <i className="fa fa-github icon"></i>View Source
+                            <i className="fa fa-github icon"></i>Create A Strong
+                            Password Here
                           </a>
                         </li>
                       </div>
@@ -96,29 +105,34 @@ class Portfolio extends Component {
               </div>
               <div className="article-wrapper">
                 <article className="col-12 col-12-xsmall work-item">
-                  <a
-                    href="https://eb8fe.codesandbox.io/"
+                  {/* <a
+                    href=""
                     className="image fit thumb"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
                     <img src="images/thumbs/09.jpg" alt="final-capstone" />
-                  </a>
+                  </a> */}
                   <div className="art-description">
                     <div className="text-wrapper">
-                      <h3>Twitter Clone</h3>
-                      <p>Developed tw</p>
+                      <h3>Workday Scheduler</h3>
+                      <p>
+                        This application allows the user to plan their day by
+                        showing their schedule and blocking off any unavailable
+                        time.
+                      </p>
                     </div>
                     <ul className="actions">
                       <div className="actions-wrapper">
                         <li>
                           <a
-                            href="https://github.com/aparnay2002/twitterclone"
+                            href="https://boyd007.github.io/Work-Day-Scheduler/"
                             className="button project-button brands"
                             target="_blank"
                             rel="noopener noreferrer"
                           >
-                            <i className="fa fa-github icon"></i>View Source
+                            <i className="fa fa-github icon"></i>Schedule Your
+                            Day Here
                           </a>
                         </li>
                       </div>
@@ -138,13 +152,28 @@ class Portfolio extends Component {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <img src="images/thumbs/10.jpg" alt="final-capstone" />
+                    {/* <img src="images/thumbs/10.jpg" alt="final-capstone" /> */}
                   </a>
                   <div className="art-description">
                     <div className="text-wrapper">
-                      <h3>Todo - List</h3>
-                      <p>Developed a Tod</p>
+                      <h3>Technology Blog</h3>
+                      <p>
+                        A blog application designed to allow the user to post
+                        and read posts from other users, pertaining to
+                        technology.
+                      </p>
                     </div>
+                    <li>
+                      <a
+                        href="https://trevortechblog.herokuapp.com/"
+                        className="button project-button brands"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i className="fa fa-github icon"></i>Click Here To View
+                        The Blog
+                      </a>
+                    </li>
                     <ul className="actions">
                       <div className="actions-wrapper"></div>
                       <div className="languages">
