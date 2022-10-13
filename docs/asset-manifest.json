@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/trevorboydreactportfolio/static/css/main.e7b3892e.css",
+    "main.js": "/trevorboydreactportfolio/static/js/main.087da8ba.js",
+    "static/media/TrevorBoydResume2022.pdf": "/trevorboydreactportfolio/static/media/TrevorBoydResume2022.090fd96e55ee212f889e.pdf",
+    "index.html": "/trevorboydreactportfolio/index.html",
+    "main.e7b3892e.css.map": "/trevorboydreactportfolio/static/css/main.e7b3892e.css.map",
+    "main.087da8ba.js.map": "/trevorboydreactportfolio/static/js/main.087da8ba.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e7b3892e.css",
+    "static/js/main.087da8ba.js"
+  ]
+}
