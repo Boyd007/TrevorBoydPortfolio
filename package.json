@@ -2,6 +2,8 @@
   "name": "trevorboydreactportfolio",
   "version": "0.1.0",
   "private": true,
+"homepage": "https://trevorboyd.github.io/trevorboydreactportfolio/",
+
 
   "dependencies": {
     "@emailjs/browser": "^3.6.2",
@@ -19,7 +21,6 @@
     "eslint": "^8.25.0",
     "eslint-config": "^0.3.0",
     "framer-motion": "^6.5.1",
-    "gh-pages": "^4.0.0",
     "gsap-trial": "^3.10.4",
     "loaders.css": "^0.1.2",
     "react": "^18.2.0",
@@ -59,5 +60,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
