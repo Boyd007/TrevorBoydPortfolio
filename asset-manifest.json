@@ -1,15 +1,14 @@
 {
   "files": {
-    "main.css": "/trevorboydreactportfolio/static/css/main.dddc5eac.css",
-    "main.js": "/trevorboydreactportfolio/static/js/main.e7f9ada7.js",
-    "static/media/TrevorBoydResume2021Fall.pdf": "/trevorboydreactportfolio/static/media/TrevorBoydResume2021Fall.1cfcc11e6d91ffe4fe67.pdf",
-    "static/media/logo.svg": "/trevorboydreactportfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/trevorboydreactportfolio/static/css/main.e7b3892e.css",
+    "main.js": "/trevorboydreactportfolio/static/js/main.087da8ba.js",
+    "static/media/TrevorBoydResume2022.pdf": "/trevorboydreactportfolio/static/media/TrevorBoydResume2022.090fd96e55ee212f889e.pdf",
     "index.html": "/trevorboydreactportfolio/index.html",
-    "main.dddc5eac.css.map": "/trevorboydreactportfolio/static/css/main.dddc5eac.css.map",
-    "main.e7f9ada7.js.map": "/trevorboydreactportfolio/static/js/main.e7f9ada7.js.map"
+    "main.e7b3892e.css.map": "/trevorboydreactportfolio/static/css/main.e7b3892e.css.map",
+    "main.087da8ba.js.map": "/trevorboydreactportfolio/static/js/main.087da8ba.js.map"
   },
   "entrypoints": [
-    "static/css/main.dddc5eac.css",
-    "static/js/main.e7f9ada7.js"
+    "static/css/main.e7b3892e.css",
+    "static/js/main.087da8ba.js"
   ]
 }
